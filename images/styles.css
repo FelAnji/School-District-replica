@@ -1,0 +1,120 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    margin-top: 0px;
+    word-spacing: 0.5em;
+}
+section{
+    text-align: center;
+}
+.heading{
+    background: rgb(92, 91, 91);
+    margin-top: 0px;
+    overflow: hidden;
+    justify-content: space-between;
+}
+#header{
+    display: flex;
+    color: greenyellow;
+}
+#menu{
+    display: flex;
+    color: white;
+}
+#menu ul{
+    list-style: none;
+}
+#menu li{
+    display: inline;
+}
+#menu a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding-right: 10px;
+    margin-bottom: 0px;
+}
+#menu a:hover{
+    text-decoration: underline;
+}
+#section1{
+    background-image: url('images/cake.jpg');
+    text-align: center;
+    margin: 0px;
+    overflow: hidden;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+#button1{
+    background: green;
+    color: white;
+    padding: 10px;
+    border-radius: 35px;
+    border: green;
+}
+button:hover{
+    text-decoration: underline;
+}
+.section2{
+    background-color: rgb(14, 143, 57);
+    margin: 0px;
+    overflow: hidden;
+}
+.middle{
+    color: white;
+    float: left;
+    width: 33%;
+    border: none;
+    padding: 10px;
+    box-sizing: border-box;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-right: 0px;
+    overflow: hidden;
+}
+.button2{
+    background: white;
+    color: green;
+    padding: 10px;
+    border-radius: 35px;
+    border: green;
+}
+footer{
+    background-image: url('images/cake.jpg');
+    margin-top: 10px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    text-align: center;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+footer input[type="email"], #newsletter textarea{
+    padding: 8px;
+    width: 50%;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    border: none;
+}
+#button3{
+    background: green;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    overflow: hidden;
+    margin-bottom: 25px;
+}
+#space{
+    padding-top: 10px;
+}
+@media(max-width:500px) {
+    .middle{
+        width: 100%;
+        float: none;
+    }
+    .section2{
+        text-align: center;
+    }
+}
